@@ -1,0 +1,73 @@
+body,html{
+	min-height: 100%;
+}
+body{
+	direction: rtl;
+	background-image: url("http://www.wallpapersbyte.com/wp-content/uploads/2015/07/Lollipops-Candy-Frosting-Sprinkling-Colorful-Yeloow-Pink-Blue-WallpapersByte-com-3840x2160.jpg");
+	background-size: auto 90%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+nav{
+	padding: 0px 20px;
+}
+ul.navmanue > li{
+	float: right;
+	padding: 0px 20px 0px 0px;
+	margin-right: 5px;
+	list-style-type: none;
+	text-align: center; 
+	display: block;
+	font-family:Arial;
+	font-size:14px;
+	width:120px;
+}
+a{
+	text-decoration:none;
+	display: block;
+}
+ul.s_menu li{
+	list-style-type: none;
+	margin-top: 5px;
+	color: #3399FF;
+	background-color: yellow;
+	width: 65px;
+	border-radius: 50px;
+}
+ul.s_menu{
+	display: none;
+	padding: 0px;
+	margin-right: 40px;
+}
+ul.s_menu a{
+	font-family: arial;
+	font-size: 12px;
+}
+ul.navmanue{
+	background-color: #6633CC;
+	height: 20px;
+	text-align: center;
+	border-radius: 20px;
+}
+.clear{
+	clear: both;
+	overflow: auto;
+}
+
+nav ul.navmanue li:hover > ul{
+	display: block;
+	
+}
+
+h1{
+	text-align: center;
+	text-shadow:  1px 1px 2px black, 0 0 1em yellow,
+	0 0 0.2em pink;
+	color:#FF33FF;
+}
+
+ul.navmanue > li > a{
+	color:#FFFF00;
+	margin-right: 34px;
+}
+
